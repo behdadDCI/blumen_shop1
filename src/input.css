@@ -1,0 +1,36 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.drei-button {
+  border: 2px solid rgb(145, 153, 145);
+  background-color: #ada400;
+}
+input {
+  padding: 8px;
+  outline: none;
+  border-radius: 20px;
+}
+.arrow a::before {
+  content: "⇾";
+  font-weight: bold;
+  color: red;
+  margin-right: 1rem;
+}
+.cards h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.cards-two div:hover {
+  border: 1px solid gray;
+}
+
+.cards-three div:hover{
+border: 1px solid gray;
+
+}
+
+.dropdown{
+  display: none;
+  background-color: aqua;
+}
