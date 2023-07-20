@@ -25,12 +25,12 @@ input {
   border: 1px solid gray;
 }
 
-.cards-three div:hover{
-border: 1px solid gray;
-
+.cards-three div:hover {
+  border: 1px solid gray;
 }
 
-.dropdown{
+.dropdown {
   display: none;
   background-color: aqua;
 }
+ 

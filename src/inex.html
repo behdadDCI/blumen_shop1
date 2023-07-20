@@ -13,7 +13,7 @@
     />
   </head>
   <body>
-    <header class="bg-gray-100 w-full gap-8 py-3 text-gray-400">
+    <header class="hidden md:flex bg-gray-100 w-full gap-8 py-3 text-gray-400">
       <span class="flex w-[78%] justify-start gap-8 m-auto text-">
         <p>✓ Send flowers</p>
         <p>✓ Flower delivery in Germany</p>
@@ -21,12 +21,35 @@
       </span>
     </header>
 
-    <div class="w-[78%] overflow-hidden m-auto text-center">
-      <nav class="mt-10 w-full flex justify-between border-b pb-3">
-        <img class="w-64" src="./public/imsge/logo.svg" alt="" />
+    <div class="w-[85%]  m-auto text-center">
+      <nav class="mt-10 flex gap-2 items-center border-b pb-3 justify-around">
+        <span class="mt-2 mr-2 text-xl text-gray-400 cursor-pointer">
+          <i class="fa-solid fa-bars"></i>
+        </span>
+        <div class="flex flex-col">
+          <img class="w-20 md:w-52" src="./public/imsge/logo.svg" alt="" />
+        </div>
 
+        <div class="flex">
+          <img
+            class="w-10 p-2 h-10 border-2 rounded-full mx-1 cursor-pointer"
+            src="./public/imsge/d-f.png"
+            alt=""
+          />
+
+          <img
+            class="drei-button w-10 h-10 border p-2 rounded-full cursor-pointer"
+            src="./public/imsge/Sample_User_Icon.png"
+            alt=""
+          />
+          <img
+            class="drei-button w-10 h-10 border p-2 rounded-full cursor-pointer"
+            src="./public/imsge/cart_icon_128475.png"
+            alt=""
+          />
+        </div>
         <span
-          class="flex justify-between items-center border rounded-3xl w-[500px]"
+          class="hidden justify-between items-center border rounded-3xl w-[270px] md:flex lg:w-[350px]"
         >
           <input
             class="pl-2 w-full"
@@ -35,88 +58,69 @@
           />
           <img class="h-4 pr-4" src="./public/imsge/Download.png" alt="" />
         </span>
-
-        <div class="flex gap-2">
-          <img
-            class="w-10 p-2 h-10 border-2 rounded-full mx-1"
-            src="./public/imsge/d-f.png"
-            alt=""
-          />
-
-          <img
-            class="drei-button w-10 h-10 border p-2 rounded-full"
-            src="./public/imsge/Sample_User_Icon.png"
-            alt=""
-          />
-          <img
-            class="drei-button w-10 h-10 border p-2 rounded-full"
-            src="./public/imsge/cart_icon_128475.png"
-            alt=""
-          />
-        </div>
       </nav>
 
-      <menu>
-        <ul class="flex gap-8 mb-5 ">
+      <menu class="hidden lg:flex">
+        <ul class="flex gap-8 mb-5">
           <li><a href="#">Home</a></li>
-          <li><a href="#">summer flowers</a></li>
-          <li><a href="#">bouquets</a>
-          <ul class="dropdown ">
-            <li><a href=""></a> Summer Flower Bouquets</li>
-            <li><a href=""></a>larg flowers bouquets</li>
-            <li><a href=""></a>classic flowers bouquets</li>
-            <li><a href=""></a>red flowers bouqouets</li>
-          </ul>
-
+          <li><a href="https://www.blumenshop.de/blumenstrauss-verschicken/sommerblumen.html">summer flowers</a></li>
+          <li>
+            <a href="https://www.blumenshop.de/blumenstrauss-verschicken.html">bouquets</a>
+            <ul class="dropdown">
+              <li><a href="https://www.blumenshop.com/send-flowers-online/summer-flowers.html"></a> Summer Flower Bouquets</li>
+              <li><a href="https://www.blumenshop.com/send-flowers-online/large-flower-bouquet.html"></a>larg flowers bouquets</li>
+              <li><a href="#"></a>classic flowers bouquets</li>
+              <li><a href="#"></a>red flowers bouqouets</li>
+            </ul>
           </li>
 
-          <li><a href="#">ocasions</a>
+          <li>
+            <a href="https://www.blumenshop.com/occasions.html">ocasions</a>
             <ul class="dropdown">
               <li>birthday</li>
               <li>wedding</li>
               <li>love</li>
             </ul>
           </li>
-          <li><a href="#">type of flowers</a>
-<ul class="dropdown">
-  <li>Rose</li>
-  <li>Gerbera</li>
-  <li>Lilies</li>
-  <li>Lilies</li>
-  <li>Lilies</li>
-  <li>Lilies</li>
-  <li>Lilies</li>
-  <li>Lilies</li>
-  <li>Lilies</li>
-</ul>
-
+          <li>
+            <a href="https://www.blumenshop.com/types-of-flowers.html">type of flowers</a>
+            <ul class="dropdown">
+              <li>Rose</li>
+              <li>Gerbera</li>
+              <li>Lilies</li>
+              <li>Lilies</li>
+              <li>Lilies</li>
+              <li>Lilies</li>
+              <li>Lilies</li>
+              <li>Lilies</li>
+              <li>Lilies</li>
+            </ul>
           </li>
-          <li><a href="#">dried flowers</a></li>
-          <li><a href="#">plant</a>
-<ul class="dropdown">
-<li>Office plants</li>
-<li>Housplants</li>
-<li>Indoor palps</li>
-<li>Orchids</li>
-
-</ul>
-
+          <li><a href="https://www.blumenshop.com/dried-flowers.html">dried flowers</a></li>
+          <li>
+            <a href="https://www.blumenshop.com/plants.html">plant</a>
+            <ul class="dropdown">
+              <li>Office plants</li>
+              <li>Housplants</li>
+              <li>Indoor palps</li>
+              <li>Orchids</li>
+            </ul>
           </li>
-          <li><a href="#">Gifts</a></li>
-          <li><a href="#">Offers</a></li>
-          <li><a href="#">Help</a></li>
+          <li><a href="https://www.blumenshop.com/flower-gifts.html">Gifts</a></li>
+          <li><a href="https://www.blumenshop.com/flower-sale.html">Offers</a></li>
+          <li><a href="https://www.blumenshop.com/help-contact">Help</a></li>
         </ul>
       </menu>
 
       <main>
-        <div class="flex gap-6">
+        <div class="flex flex-col md:flex-row gap-2">
           <img
-            class="w-4/5"
+            class="w-full md:w-[65%] xl:w-[80%]"
             src="./public/imsge/sommerblumen-1-2023-de.webp"
             alt=""
           />
           <nav
-            class="arrow flex flex-col justify-center w-full gap-4 bg-gray-100 items-start pl-10"
+            class="arrow flex flex-col justify-center w-full gap-4 bg-gray-100 items-start pl-6"
           >
             <a href="#"> All bouquets</a>
             <a href="#"> birthday flowers</a>
@@ -131,8 +135,10 @@
           </nav>
         </div>
 
-        <section class="flex justify-around pt-8 pb-12 border-b-2">
-          <span class="flex gap-2 items-center text-green-900">
+        <section
+          class="grid grid-cols-1 gap-8 pt-8 pb-12 border-b-2 md:grid-cols-4"
+        >
+          <span class="flex gap-2 items-center text-green-900 cursor-pointer">
             <img
               class="w-12 h-10"
               src="./public/imsge/icon-7-circle.svg"
@@ -140,7 +146,7 @@
             />
             <p>7-day freshness promise</p>
           </span>
-          <span class="flex gap-2 items-center text-green-900">
+          <span class="flex gap-2 items-center text-green-900 cursor-pointer">
             <img
               class="w-12 h-10"
               src="./public/imsge/icon-flower1.svg"
@@ -148,7 +154,7 @@
             />
             <p>Fresh from the breeder</p>
           </span>
-          <span class="flex gap-2 items-center text-green-900">
+          <span class="flex gap-2 items-center text-green-900 cursor-pointer">
             <img
               class="w-12 h-10"
               src="./public//imsge/icon-card-text.svg"
@@ -156,13 +162,15 @@
             />
             <p>Free greeting card</p>
           </span>
-          <span class="flex gap-2 items-center text-green-900">
+          <span class="flex gap-2 items-center text-green-900 cursor-pointer">
             <img class="w-12 h-10" src="./public/imsge/icon-truck.svg" alt="" />
             <p>Delivery on the desired day</p>
           </span>
         </section>
 
-        <div class="cards grid grid-cols-4 gap-2 pt-4 border-b-2 pb-8">
+        <div
+          class="cards grid grid-cols-1 gap-2 pt-4 border-b-2 pb-8 md:grid-cols-4"
+        >
           <div>
             <img src="./public/imsge/geburtstag-home-500.webp" alt="" />
             <h3>birthday flowers</h3>
@@ -200,8 +208,8 @@
           as quickly as possible and are therefore of the best quality at the
           best price. If desired, an order can be delivered the next day.
         </p>
-<!-- cards section-two -->
-        <section class="cards-two grid grid-cols-4 gap-8">
+        <!-- cards section-two -->
+        <section class="cards-two grid grid-cols-1 gap-8 md:grid-cols-4">
           <div class="flex flex-col">
             <img src="./public/imsge/40-weisse-rosen-int.webp" alt="" />
             <p>40 white roses (40cm)</p>
@@ -320,7 +328,7 @@
         </span>
 
         <section
-          class="cards grid grid-cols-4 gap-4 border-t-2 py-5 border-b-2"
+          class="cards grid grid-cols-1 gap-4 border-t-2 py-5 border-b-2 md:grid-cols-4"
         >
           <div>
             <img
@@ -358,30 +366,45 @@
           your green oasis can grow quickly and conveniently.
         </p>
         <!-- cards section-three -->
-        <section class="cards-three grid grid-cols-4 gap-8">
+        <section class="cards-three grid grid-cols-1 gap-8 md:grid-cols-4">
           <!-- card1 -->
           <div class="flex flex-col">
-            <img src="./public/imsge/4260625434277-orchideenbogen-rosa.webp" alt="" />
-            <h3>Orchid Arch Pink + Free Pot |+/- 45 cm | ø 12 cm | Phalaenopsis</h3>
+            <img
+              src="./public/imsge/4260625434277-orchideenbogen-rosa.webp"
+              alt=""
+            />
+            <h3>
+              Orchid Arch Pink + Free Pot |+/- 45 cm | ø 12 cm | Phalaenopsis
+            </h3>
             <p class="font-bold">€34.95</p>
           </div>
-<!-- card2 -->
+          <!-- card2 -->
           <div class="flex flex-col">
-            <img src="./public/imsge/4260625434284-weisse-orchidee-vier-rispen.webp" alt="" />
-            <h3>White Orchid (Four Trusses) + Free Pot | +/- 60 cm | ø 12 cm | Phalaenopsis</h3>
+            <img
+              src="./public/imsge/4260625434284-weisse-orchidee-vier-rispen.webp"
+              alt=""
+            />
+            <h3>
+              White Orchid (Four Trusses) + Free Pot | +/- 60 cm | ø 12 cm |
+              Phalaenopsis
+            </h3>
             <p class="font-bold">€31.95</p>
           </div>
-<!-- card3 -->
+          <!-- card3 -->
           <div class="flex flex-col">
             <img src="./public/imsge/ananas_pflanze_int_2019 (1).webp" alt="" />
-            <h3>Pineapple Plant + Free Pot | +/- 30-40 cm | ø 15 cm | Corona
+            <h3>
+              Pineapple Plant + Free Pot | +/- 30-40 cm | ø 15 cm | Corona
             </h3>
             <p class="font-bold">€23.95</p>
           </div>
           <!-- card4 -->
           <div class="flex flex-col">
             <img src="./public/imsge/hortensia-magical-rosa.webp" alt="" />
-            <h3>Hydrangea Pink Magical Revolution + Free Pot | +/- 30 cm | ø 12 cm | Hydrangea</h3>
+            <h3>
+              Hydrangea Pink Magical Revolution + Free Pot | +/- 30 cm | ø 12 cm
+              | Hydrangea
+            </h3>
             <p class="font-bold">€29.95</p>
             <!-- card5 -->
           </div>
@@ -394,22 +417,27 @@
           <div class="flex flex-col">
             <img src="./public/imsge/monstera_int_2er.webp" alt="" />
             <h3>Set of 2 Monstera | +/- 50 cm | ø 14 cm | Window Leaf</h3>
-            <p class="font-bold">€24.95
-            </p>
+            <p class="font-bold">€24.95</p>
           </div>
           <!-- card7 -->
           <div class="flex flex-col">
-            <img src="./public/imsge/eukalyptus-stamm-100cm-mit-topf_2.webp" alt="" />
-            <h3>Eucalyptus Stem + Pot | +/- 100 cm | ø 21 cm | Eucalyptus Gunnii</h3>
+            <img
+              src="./public/imsge/eukalyptus-stamm-100cm-mit-topf_2.webp"
+              alt=""
+            />
+            <h3>
+              Eucalyptus Stem + Pot | +/- 100 cm | ø 21 cm | Eucalyptus Gunnii
+            </h3>
             <p class="font-bold">€68.90</p>
           </div>
           <!-- card8 -->
           <div class="flex flex-col">
             <img src="./public/imsge/zwei-pachira-topf-anthrazit.webp" alt="" />
-            <h3>Two Money Tree + Free Pots | +/- 60-70 cm | ø 17 cm | Pachira</h3>
+            <h3>
+              Two Money Tree + Free Pots | +/- 60-70 cm | ø 17 cm | Pachira
+            </h3>
             <p class="font-bold">€37.95</p>
             <p class="line-through">€55.90</p>
-            
           </div>
           <!-- card9 -->
           <div class="flex flex-col">
@@ -417,30 +445,28 @@
             <h3>Gold Fruit Palm XXL | +/- 150 cm | ø 24 cm | Areca Palm</h3>
             <p class="font-bold">€59.95</p>
             <p class="line-through">€59.95</p>
-            
           </div>
-<!-- card10 -->
+          <!-- card10 -->
           <div class="flex flex-col">
             <img src="./public/imsge/kentia-palme-140cm.webp" alt="" />
             <h3>Kentia Palm XXL | +/- 140 cm | ø 21 cm | Howea Forsteriana</h3>
             <p class="font-bold">€74.95</p>
             <p class="line-through">€99.95</p>
-            </div
           </div>
+
           <!-- card11 -->
           <div class="flex flex-col">
             <img src="./public/imsge/monstera-minima-150cm.webp" alt="" />
             <h3>Window Leaf XXL | +/- 160 cm | ø 27 cm | Monstera Minima</h3>
             <p class="font-bold">€34.95</p>
           </div>
-<!-- card12 -->
+          <!-- card12 -->
           <div class="flex flex-col">
             <img src="./public/imsge/olivenbaum-70cm-mit-topf_1.webp" alt="" />
             <h3>Olive Tree XXL | +/- 160 cm | ø 24 cm | Olea Europaea</h3>
             <p class="font-bold">€57.95</p>
             <p class="line-through">€77.95</p>
           </div>
-
         </section>
         <span class="w-full bg-slate-800">
           <button
@@ -448,46 +474,115 @@
           >
             All plants >
           </button>
-        </span
+        </span>
       </main>
-     
-    <div class="mb-8"> <img  class=" pt-5 border-t-black mb-6" src="./public/imsge/home-logobar-com (1).webp" alt=""></div>
 
+      <div class="flex justify-center mb-8">
+        <img
+          class="pt-5 border-t-black mb-6"
+          src="./public/imsge/home-logobar-com (1).webp"
+          alt=""
+        />
+      </div>
 
+      <section
+        class="grid grid-cols-1 gap-4 justify-start border-t pt-4 lg:grid-cols-4"
+      >
+        <div class="w-full">
+          <img class="w-full" src="./public/imsge/send-flowers.webp" alt="" />
+        </div>
+        <div
+          class="font-bold flex flex-col leading-6 text-start justify-start xl:mt-10"
+        >
+          <h3>Send flower</h3>
+          <p class=" ">
+            Welcome to blumenshop.com - THE online flower delivery service for
+            fresh flowers and successful surprises. With us, you can choose a
+            colorful and special bouquet for your mom, your best friend, a
+            colleague, your neighbor, or your brother.
+          </p>
+        </div>
+        <div class="flex flex-col leading-10 justify-start text-start xl:mt-10">
+          <h3>Occasions for flowers</h3>
+          <p>
+            Flowers for Mother's Day Flowers for birthdays Flowers to express
+            sympathy Get well soon flowers Wedding anniversary flowers
+          </p>
+        </div>
+        <div class="flex flex-col text-start justify-start xl:mt-10">
+          <h3>Seasonal Flowers</h3>
+          <p class="leading-">
+            The days are getting longer and the sun is shining. Finally the warm
+            season begins and we have fresh summer flowers for you! Bright
+            sunflowers bring a smile to everyone's face and large hydrangeas are
+            the eye-catcher in many bouquets.
+          </p>
+        </div>
+      </section>
 
-<footer class="grid grid-cols-4 gap-2 border-t pt-4">
+      <span
+        class="hidden items-center gap-10 h-40 w-full mb-10 bg-[#ada200] md:flex"
+      >
+        <span class="text-start pl-2 text-white">
+          <p class="text-2xl font-bold">Subscribe to our newsletter!</p>
+          <p class="w-[35ch] text-xl lg:w-[45ch]">
+            Be informed about the latest trends and offers via Whatsapp or
+            e-mail. As a thank you for your registration, we will give you a
+            one-off discount of €5.00 .
+          </p>
+        </span>
+        <button class="bg-slate-100 p-3 mr-2 font-bold rounded-2xl">
+          Subscribe to the newsletter >
+        </button>
+      </span>
 
-  <div class="">
-    <img src="./public/imsge/send-flowers.webp" alt="">
-  </div>
-  <div class="font-bold ">
-    <h3>Send flower</h3>
-    <p class="">Welcome to blumenshop.com - THE online flower delivery service for fresh flowers and successful surprises.
+      <footer
+        class="bg-[#ada200] grid grid-cols-1 gap-4 place-items-center place-content-center md:grid-cols-2 lg:grid-cols-4"
+      >
+        <div class="flex flex-col gap-2 p-6 text-start">
+          <p class="font-bold">customer service</p>
+          <p>Our customer hotline:</p>
+          <p>By phone Mon. - Fri. from</p>
+          <p>09:00 - 17:00</p>
+          <p>Phone: +49 2562-993 72 11</p>
+          <p>To contact form</p>
+          <p>Behada Mirbani</p>
+          <p>Office</p>
+        </div>
 
-      With us, you can choose a colorful and special bouquet for your mom, your best friend, a colleague, your neighbor, or your brother.</p>
-  </div>
-  <div>
-    <h3>Occasions for flowers</h3>
-    <p>Flowers for Mother's Day
+        <nav class="flex flex-col gap-2 p-6 text-start">
+          <p class="font-bold">flower delivery</p>
+          <a href="#">All bouquets</a>
+          <a href="#">Send flowers anonymously</a>
+          <a href="#">birthday flowers</a>
+          <a href="#">Inexpensive bouquets</a>
+          <a href="#">flower delivery</a>
+          <a href="#">rose delivery</a>
+          <a href="#">plant shipping</a>
+        </nav>
 
-      Flowers for birthdays
-      
-      Flowers to express sympathy
-      
-      Get well soon flowers
-      
-      Wedding anniversary flowers
-      
-      </p>
-  </div>
-  <div>
-    <h3>Seasonal Flowers</h3>
-    <p>The days are getting longer and the sun is shining. Finally the warm season begins and we have fresh summer flowers for you!
+        <nav class="flex flex-col gap-2 p-6 text-start">
+          <p class="font-bold">useful information</p>
+          <a href="#">About blumenshop.de</a>
+          <a href="#">Freshness promise</a>
+          <a href="#">flower blog</a>
+          <a href="#">sustainability</a>
+          <a href="#">flower dictionary</a>
+          <a href="#">flowering calendar</a>
+          <a href="#">Newsletter</a>
+        </nav>
 
-      Bright sunflowers bring a smile to everyone's face and large hydrangeas are the eye-catcher in many bouquets.</p>
-  </div>
-</footer>
-    
+        <nav class="flex flex-col gap-2 p-6 text-start">
+          <p class="font-bold">information</p>
+          <a href="#">Help & Contact</a>
+          <a href="#">Shipping Information</a>
+          <a href="#">payment methods</a>
+          <a href="#">business customers</a>
+          <a href="#">FAQ</a>
+          <a href="#">video message</a>
+          <a href="#">Job offers</a>
+        </nav>
+      </footer>
     </div>
   </body>
 </html>
